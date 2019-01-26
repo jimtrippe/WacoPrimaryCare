@@ -1,0 +1,91 @@
+* {
+}
+/* unvisited link */
+a:link {
+   text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+}
+.ba-action {
+    text-align: middle;
+}
+.logo {
+    margin-top: 18px;
+    padding: inherit;
+    align-content: right;
+}
+.address, .phone {
+    display: block;
+    text-align: middle;
+    margin: 18px 0;
+    color: #ffffff;
+    background: #092a36;
+    padding: 8px 35px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.phone {
+    text-align: left;
+}
+.navrow {
+    margin-top: 1rem;
+    padding: 0px 25px;
+}
+.jumbotron {
+    background-image:;
+    background: url(file:///Users/mctrippe/Documents/projects/WacoPrimaryCare/resources/images/home4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.tab-pane {
+    width: 65%;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #0f4759, transparent);
+}
+#services .col-sm {
+    background-color: #219fc2;
+    margin: 30px 20px 0px 20px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.fas, .far {
+    color: #e3e7e8;
+    padding-left: 15px;
+    font-size: 3em;
+}
+.serv-title {
+    color: #e3e7e8;
+    margin-left: 10px;
+}
+.col-sm p {
+    color: #e3e7e8;
+    font-size: 14px;
+}
+.btn {
+    align: middle;
+    margin-top: 20px;
+    background-color: #219fc2;
+    font-size: 18px;
+    padding: 8px 22px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.foot {
+    margin-top: 25px;
+    background-color: #176d87;
+}
+.foot span {
+    font-size: 10px;
+}
+#social {
+    font-size: 3em;
+    align-items: center middle;
+}
