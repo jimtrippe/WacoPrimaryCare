@@ -21,7 +21,7 @@ a:hover {
     text-align: middle;
     margin: 18px 0;
     color: #ffffff;
-    background: #092a36;
+    background: #0f4759/*#092a36*/;
     padding: 8px 35px;
     border-radius: 6px;
     font-size: 14px;
@@ -32,6 +32,20 @@ a:hover {
 .navrow {
     margin-top: 1rem;
     padding: 0px 25px;
+}
+.nav .nav-link {
+    color: #0f4759 !important;
+}
+.nav .nav-link:hover {
+    text-shadow: 0.5px 1px #000;
+}
+.nav .nav-link.active {
+    background-color: #0f4759 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+.tab-pane h4, .tab-pane h5 {
+  font-family: 'Work Sans', sans-serif !important;
 }
 .jumbotron {
     background-image:;
@@ -44,9 +58,17 @@ a:hover {
     padding: 20px 0;
 }
 .tab-pane {
+    font-family: 'Roboto', sans-serif !important;
     width: 65%;
     color: #ffffff;
     background-image: linear-gradient(to right, #0f4759, transparent);
+    padding: 10px;
+}
+ .tab-pane#pills-home {
+    font-family: 'Just Another Hand', cursive !important;
+    background-image: linear-gradient(to right, #0f4759);
+    font-size: 1.7em;
+    font-stretch: 2em;
 }
 #services .col-sm {
     background-color: #219fc2;
