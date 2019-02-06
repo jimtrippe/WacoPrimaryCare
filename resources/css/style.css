@@ -13,8 +13,8 @@ a:hover {
 }
 .logo {
     margin-top: 18px;
-    padding: inherit;
-    align-content: right;
+    padding: 0;
+    align-content: center;
 }
 .address, .phone {
     display: block;
@@ -49,7 +49,7 @@ a:hover {
 }
 .jumbotron {
     background-image:;
-    background: url(https://jimtrippe.github.io/WacoPrimaryCare/resources/images/home4.jpg) no-repeat center center fixed;
+    background: url(https://jimtrippe.github.io/WacoPrimaryCare/resources/images/home0402.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,14 +100,30 @@ a:hover {
     color: #ffffff;
     border: 1px solid #ffffff;
 }
+.hand {
+    font-family: 'Gochi Hand', cursive !important;
+    font-size: 12px;
+}
 .foot {
+    position: relative;
     margin-top: 25px;
     background-color: #176d87;
+}
+.foot#left {
+    align-items: left !important;
 }
 .foot span {
     font-size: 10px;
 }
+.foot-right {
+      position: absolute !important;
+      right: 15px;
+}
 #social {
     font-size: 3em;
-    align-items: center middle;
+    align-items: center !important;
 }
+
+/* Natural Responsive View 001 */
+@media only screen and (max-width: 885px) {
+  /* Less than 880 pixel screen natural break */
