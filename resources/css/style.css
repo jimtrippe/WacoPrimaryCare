@@ -48,14 +48,53 @@ a:hover {
   font-family: 'Work Sans', sans-serif !important;
 }
 .jumbotron {
-    background-image:;
-    background: url(https://jimtrippe.github.io/WacoPrimaryCare/resources/images/home0402.jpg) no-repeat center center fixed;
+    /*background-image:;
+    background: url(https://jimtrippe.github.io/WacoPrimaryCare/resources/images/home0101.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin-bottom: 0;
     padding: 20px 0;
+}
+.randbg {
+    background: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+.randbg.bg1 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/1.jpg');
+}
+.randbg.bg2 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/2.jpg');
+}
+.randbg.bg3 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/3.jpg');
+}
+.randbg.bg4 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/4.jpg');
+}
+.randbg.bg5 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/5.jpg');
+}
+.randbg.bg6 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/6.jpg');
+}
+.randbg.bg7 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/7.jpg');
+}
+.randbg.bg8 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/8.jpg');
+}
+.randbg.bg9 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/9.jpg');
+}
+.randbg.bg10 {
+    background-image: url('https://jimtrippe.github.io/WacoPrimaryCare/resources/random/images/10.jpg');
 }
 .tab-pane {
     font-family: 'Roboto', sans-serif !important;
