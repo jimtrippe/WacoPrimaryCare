@@ -12,19 +12,20 @@ a:hover {
     text-align: middle;
 }
 .logo {
-    margin-top: 18px;
-    padding: 0;
-    align-content: center;
+    margin: 10px auto;
+    padding: 0;*/
+    display: block;
+    width: 100%;
 }
 .address, .phone {
     display: block;
     text-align: middle;
-    margin: 18px 0;
+    margin: 12px 0;
     color: #ffffff;
     background: #0f4759/*#092a36*/;
     padding: 8px 35px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .phone {
     text-align: left;
@@ -98,7 +99,7 @@ a:hover {
 }
 .tab-pane {
     font-family: 'Roboto', sans-serif !important;
-    width: 65%;
+    width: 75%;
     color: #ffffff;
     background-image: linear-gradient(to right, #0f4759, transparent);
     padding: 10px;
@@ -109,7 +110,7 @@ a:hover {
     font-size: 1.7em;
     font-stretch: 2em;
 }
-#services .col-sm {
+#services .col-md {
     background-color: #219fc2;
     margin: 30px 20px 0px 20px;
     padding: 15px 10px;
@@ -124,7 +125,7 @@ a:hover {
     color: #e3e7e8;
     margin-left: 10px;
 }
-.col-sm p {
+.col-md p {
     color: #e3e7e8;
     font-size: 14px;
 }
@@ -143,26 +144,53 @@ a:hover {
     font-family: 'Gochi Hand', cursive !important;
     font-size: 12px;
 }
+q {
+  font-size: 18px;
+}
 .foot {
-    position: relative;
     margin-top: 25px;
+    padding: 10px 15px;
     background-color: #176d87;
 }
-.foot#left {
-    align-items: left !important;
-}
+/*.foot#left {
+    position: absolute;
+    left: 15px;
+}*/
 .foot span {
     font-size: 10px;
 }
-.foot-right {
-      position: absolute !important;
-      right: 15px;
+/* #center {
+    text-align: left;
+    horizontal-align: middle;
 }
+.foot-right {
+      align-content: center;
+      position: absolute;
+      right: 20px;
+}*/
 #social {
     font-size: 3em;
-    align-items: center !important;
 }
 
-/* Natural Responsive View 001 */
-@media only screen and (max-width: 885px) {
-  /* Less than 880 pixel screen natural break */
+/* Natural Responsive View 001
+@media (min-width: 992px) {
+  /* Greater than 992 pixel screen natural break */
+  /*  .col {
+        flex-basis: 0 !important;
+        flex-basis: 1 !important;
+        max-width: 100% !important;
+    }
+    .col-md-auto {
+        flex: 0 0 auto !important;
+        position: relative !important;
+        width: auto !important;
+        max-width: 100% !important;
+    }
+    .col-lg-2 {
+        flex: 0 !important;
+        position: relative !important;
+        width: 100% !important;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}*/
