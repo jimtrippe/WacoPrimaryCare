@@ -152,22 +152,9 @@ q {
     padding: 10px 15px;
     background-color: #176d87;
 }
-/*.foot#left {
-    position: absolute;
-    left: 15px;
-}*/
 .foot span {
     font-size: 10px;
 }
-/* #center {
-    text-align: left;
-    horizontal-align: middle;
-}
-.foot-right {
-      align-content: center;
-      position: absolute;
-      right: 20px;
-}*/
 #social {
     font-size: 3em;
 }
