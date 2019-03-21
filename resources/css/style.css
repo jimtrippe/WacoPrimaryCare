@@ -32,7 +32,7 @@ a:hover {
 }
 .navrow {
     margin-top: 1rem;
-    padding: 0px 25px;
+    padding: 0px 15px;
 }
 .nav .nav-link {
     color: #0f4759 !important;
@@ -49,6 +49,7 @@ a:hover {
   font-family: 'Work Sans', sans-serif !important;
 }
 .jumbotron {
+    background-color: #c0c4c4;
     /*background-image:;
     background: url(https://jimtrippe.github.io/WacoPrimaryCare/resources/images/home0101.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
@@ -110,13 +111,16 @@ a:hover {
     font-size: 1.7em;
     font-stretch: 2em;
 }
+.contact {
+    padding-left: 15px;
+}
 #services .col-md {
     background-color: #219fc2;
     margin: 30px 20px 0px 20px;
     padding: 15px 10px;
     border-radius: 5px;
 }
-.fas, .far {
+.fas, .far, .fa-megaport {
     color: #e3e7e8;
     padding-left: 15px;
     font-size: 2em;
@@ -129,7 +133,7 @@ a:hover {
     color: #e3e7e8;
     font-size: 14px;
 }
-.btn {
+.btn #services {
     align: middle;
     margin-top: 20px;
     background-color: #219fc2;
@@ -142,10 +146,10 @@ a:hover {
 }
 .hand {
     font-family: 'Gochi Hand', cursive !important;
-    font-size: 12px;
+    font-size: 16px !important;
 }
 q {
-  font-size: 18px;
+  font-size: 14px;
 }
 .foot {
     margin-top: 25px;
@@ -156,16 +160,22 @@ q {
     font-size: 10px;
 }
 #social {
+    color: #000000;
     font-size: 3em;
+}
+.foot-right .btn {
+    align: middle;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #176d87;
+    font-size: 9px;
+    padding: 2px 10px;
+    border-radius: 6px;
+    color: #000000;
+    border: 1px solid #000000;
 }
 /* Natural Responsive View */
 @media (max-width: 992px) {
-  .randbg {
-      -webkit-background-size: 200%;
-      -moz-background-size: 200%;
-      -o-background-size: 200%;
-      background-size: 200%;
-  }
   .tab-pane {
       width: 100%;
   }

@@ -37,7 +37,7 @@
             </span>
             </span>
           </div>
-    			<div class="col-md-6">
+    			<div class="col-md-6 sticky-top">
             <a href="#">
     				<!-- Logo -->
             <img class="logo img-responsive" src="resources/images/wpc_logo.jpg" alt="logo"></a>
@@ -93,20 +93,90 @@
           <div class="tab-pane fade" id="pills-team" role="tabpanel" aria-labelledby="pills-team-tab">
             <h5>PROVIDERS</h5>
             <p>
-              Karl M. Trippe, M.D.,<br>  Kendall Nobles, FNP,<br>  Connie Barker, FNP</p>
+              <!-- Buttons for Profile Modals -->
+              <button type="button" class="btn btn-link" data-toggle="modal" data-target="profile1">Karl M. Trippe, M.D.</button>
+              <br>
+              <button type="button" class="btn btn-link" data-toggle="modal" data-target="profile2">Kendall Nobles, FNP</button>
+              <br>
+              <button type="button" class="btn btn-link" data-toggle="modal" data-target="profile3">Connie Barker, FNP
+              </button>
+              <!-- Profile Modals -->
+              <div class="modal fade" id="profile1" tabindex="-1" role="dialog" aria-labelledby="profile1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="profile1">Karl M. Trippe, M.D.</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Dr. Karl M Trippe, MD is a Doctor primarily located in Woodway, TX. He has 23 years of experience. His specialties include Family Medicine. He speaks English.
+                      A family practitioner is a doctor who specializes in caring for people of all ages, at all stages of life. Rather than focusing on the treatment of one disease or patient population, family practitioners are often the doctors that people see for their everyday ailments, like cold and flu or respiratory infections, and health screenings. When necessary, family practitioners will provide referrals for conditions that require the expertise of another specialist.
+                      The doctors may also provide physicals, inoculations, prenatal care, treat chronic diseases, like diabetes and asthma, and provide advice on disease prevention.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="profile2" tabindex="-1" role="dialog" aria-labelledby="profile2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="profile2">Kendall Nobles, FNP</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                    Kendall Nobles, MSN, APRN, FNP-C was born and raised in Waco, Texas. She studied at McLennan Community College and The University of Texas at Arlington. While working in surgery she completed her Master’s degree in Nursing from the University of Mary Hardin Baylor. She is a Board-Certified Family Nurse Practitioner who has a special interest in preventative health care. Kendall is an active member of several professional organizations including the American Academy of Nurse Practitioners, Sigma Theta Tau, the International Honor Society of Nursing, and  Texas Nurse Practitioners.  Mrs. Nobles joined Waco Primary Care in 2017. In addition to being a proud parent of two children, she enjoys spending time with her husband, and remaining active in her church.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="profile3" tabindex="-1" role="dialog" aria-labelledby="profile3" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="profile3">Connie Barker, FNP</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Connie Barker, FNP Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                      Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                      Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+                      Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </p>
             <h5>
             NURSING STAFF</h5>
             <p>
               Lindsey LVN, <br>  Rhonda MA, <br>  Maria CNA</p>
             <h5>
-            FRONT STAFF</h5>
+            FRONT OFFICE STAFF</h5>
             <p>  Michelle <br>  Shannon</p>
             <h5>Billing Manager</h5><p>  Amy</p>
             <h5>Referrals</h5><p>  Skylar<br>  Hannah</p>
             <h5>Medical records</h5><p>Please fax request to (254) 399-6558.</p>
           </div>
           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="row">
+            <div class="row contact">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5664410433856!2d-97.20312658490782!3d31.508598981373463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864f869887322ad7%3A0x6be90958feadd320!2sWaco+Primary+Care!5e0!3m2!1sen!2sus!4v1549663702583" width="250" height="175" frameborder="0" style="border:0" allowfullscreen></iframe>
               <img class="view" src="https://jimtrippe.github.io/WacoPrimaryCare/resources/images/WPC_view.png" width="250" height="175" frameborder="0" style="border:0" object-fit="scale-down"></img>
             </div>
@@ -116,7 +186,7 @@
             Fax: (254) 399-6558</p>
             <p> Our Office Hours are 8:00AM-5:00PM, Monday through Friday. </p>
             <p>
-            If you need to reach us after hours, please call (254)399-6545 and the on-call physician will return your call.  If it is an emergency, please dial 911. </p>
+            If you need to reach us after hours, please call (254) 399-6545 and the on-call physician will return your call.  If it is an emergency, please dial 911. </p>
           </div>
           <div class="tab-pane fade" id="pills-service" role="tabpanel" aria-labelledby="pills-service-tab">
             <h5>Insurance</h5>
@@ -157,10 +227,11 @@
         <div class="row d-flex flex-wrap">
           <div class="col-md">
             <div class="row">
-              <i class="fas fa-clipboard-list"></i>
-              <h5 class="serv-title">ARRIVE<br>PREPARED</h5>
+              <i class="fab fa-megaport"></i>
+              <h5 class="serv-title">PORTAL<br>ACCESS</h5>
             </div>
-              <span><a href="patient-forms" class="btn btn-secondary">Patient Forms</a></span><br>
+              <span><p>We provide portal access when you setup your first appointment.  Please request access with our front office staff and an invite will be sent to your email.</p></span>
+              <span><a href="https://3439.portal.athenahealth.com" class="btn btn-secondary" target="_blank">My Portal</a></span><br>
               <span><i class="far fa-hand-pointer"></i></span>
           </div>
           <div class="col-md">
@@ -168,8 +239,9 @@
               <i class="fas fa-certificate"></i>
               <h5 class="serv-title">CERTIFIED<br>SERVICE</h5>
             </div>
-            <span><p>Our providers are highly trained and experianced. They can help you with all your required healthcare services.</p></span><br>
-            <span></span>
+            <span><p>Our providers are highly trained and experianced. They can help you with all your required healthcare services.</p></span>
+            <span><a href="#pills-service" class="btn btn-secondary" id="pills-service-tab" data-toggle="pill" role="tab" aria-controls="pills-service" aria-selected="false">In-house Lab</a></span><br>
+            <span><i class="far fa-hand-pointer"></i></span>
           </div>
           <div class="col-md">
             <div class="row">
@@ -182,10 +254,10 @@
           </div>
           <div class="col-md">
             <div class="row">
-              <i class="fas fa-clipboard-list"></i>
+              <i class="fas fa-walking"></i>
               <h5 class="serv-title">WALK-INS<br>WELCOME</h5>
             </div>
-            <span><a href="#pills-service" class="btn btn-secondary" id="pills-service-tab" data-toggle="pill" role="tab" aria-controls="pills-service" aria-selected="false">In-house Lab</a></span>
+            <span><p>WPC is proud to offer care for all patients. You do not have to be our patient to be seen!</p></span>
             <span><a href="https://goo.gl/maps/TaYvxkXqH972" class="btn btn-secondary">Map Location</a></span><br>
             <span><i class="fas fa-search-location"></i></span>
           </div>
@@ -202,13 +274,13 @@
             <span>&copy; Waco Primary Care, P.A.<br>All rights reserved</span>
           </div>
           <div class="col-xs-4" id="center">
-            <span id="social"><i class="fab fa-linkedin"></i> <i class="fab fa-facebook-square"></i>  <i class="fab fa-instagram"></i></span>
+            <span id="social"> <i class="fab fa-linkedin"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> </span>
           </div>
           <div class="col-xs-4" id="right">
             <span class="foot-right">
-              <a href="#">Terms</a><br>
-              <a href="#">Privacy</a><br>
-              <a href="#">Credit</a>
+              <button type="button" class="btn btn-outline-dark">Terms</button><br>
+              <button type="button" class="btn btn-outline-dark">Privacy</button><br>
+              <button type="button" class="btn btn-outline-dark">Credit</button>
             </span>
           </div>
         </div>
