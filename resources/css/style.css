@@ -105,6 +105,9 @@ a:hover {
     background-image: linear-gradient(to right, #0f4759, transparent);
     padding: 10px;
 }
+.modal-title, .modal-body {
+    color: #219fc2;
+}
  .tab-pane#pills-home {
     font-family: 'Just Another Hand', cursive !important;
     background-image: linear-gradient(to right, #0f4759);
